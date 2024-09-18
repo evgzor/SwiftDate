@@ -157,7 +157,8 @@ extension Calendar.Component {
 		case .calendar:          return 1 << 16
 		case .timeZone:          return 1 << 17
         case .isLeapMonth:       return 1 << 18
-		}
+        case .dayOfYear:         return 1 << 18
+        }
 	}
 	
 	internal init?(rawValue: UInt) {
